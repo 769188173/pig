@@ -18,7 +18,7 @@ zuul:
 
   routes:
     auth-service:
-        path: /uaa/**
+        path: /uaa/**5
         url: http://auth-service:5000
         stripPrefix: false
         sensitiveHeaders:
